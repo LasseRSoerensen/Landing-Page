@@ -1,5 +1,6 @@
 import {loadPage} from './PageLoad';
 export const landingPage = (() => {
+    //Loads the header
     const load_header = () => {
         loadPage.create_element(false, ["header"], 'div');
         loadPage.create_element('header', ["logo"], 'div'); 
@@ -12,7 +13,7 @@ export const landingPage = (() => {
         loadPage.create_element('links', ["link3"], 'li');
         loadPage.add_text('link3', "Header link three");
     };
-
+    //Loads the landing section
     const load_landing_section = () => {
         loadPage.create_element(false, ["landing"], 'div');
         loadPage.create_element('landing', ["landing-description"], 'div');
@@ -27,7 +28,7 @@ export const landingPage = (() => {
         loadPage.create_element('landing-pic', ["pic"], 'div');
         loadPage.add_text('pic', 'This is a placeholder for an image');
     };
-
+    //Loads the information section
     const load_information_section = () => { 
         loadPage.create_element(false, ["information"], 'div');
         loadPage.create_element('information', ["info"], 'div');
@@ -54,7 +55,7 @@ export const landingPage = (() => {
         loadPage.create_element('4', ["text", "t4"], 'div');
         loadPage.add_text('t4', "This is some subtext under an illustration or image");
     };
-
+    //Loads the quote section
     const load_quote_section = () => { 
         loadPage.create_element(false, ["quote-section"], 'div');
         loadPage.create_element('quote-section', ["quote-box"], 'div');
@@ -63,7 +64,7 @@ export const landingPage = (() => {
         loadPage.create_element('quote-box', ["author"], 'div');
         loadPage.add_text('author', "Author");
     };
-
+    //Loads the sign up section
     const load_signup_section = () => { 
         loadPage.create_element(false, ["signup-section"], 'div');
         loadPage.create_element('signup-section', ["signup"], 'div');
@@ -75,7 +76,7 @@ export const landingPage = (() => {
         loadPage.create_element('signup', ["signup-button"], 'button');
         loadPage.add_text('signup-button', "Sign up");
     };
-
+    //Loads the footer
     const load_footer = () => { 
         loadPage.create_element(false, ["footer"], 'div');
         loadPage.add_text('footer', "Copyright The Odin Project 2021");         
