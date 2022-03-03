@@ -49,6 +49,7 @@ a {
     background-color: #1F2937;
     padding: 100px 0px;
     gap: 200px;
+    flex-wrap: wrap;
 }
 
 .links, .description {
@@ -100,6 +101,7 @@ button {
 
 .boxes {
     display: flex;
+    flex-wrap: wrap;
     gap: 40px;
 
 }
@@ -129,7 +131,9 @@ button {
 .quote-box {
     display: flex;
     flex-flow: column;
-    width: 720px;
+    margin: 20px 200px;
+    
+
     gap: 20px;
 }
 .author {
