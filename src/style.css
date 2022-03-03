@@ -1,7 +1,6 @@
 body {
     height: 100vh;
     margin: 0;
-    overflow: hidden;
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
@@ -111,4 +110,30 @@ button {
     width: 150px;
     gap: 10px;
     text-align: center;
+}
+
+.quote-section {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+}
+
+.quote-box {
+    display: flex;
+    flex-flow: column;
+    width: 720px;
+    gap: 20px;
+}
+.author {
+    align-self: flex-end;
+    font-size: 25px;
+    font-weight: bold;
 }
