@@ -1,0 +1,1 @@
+Project created with CSS, HTML, javascript and webpack. The purpose of this project, was to practice the alignment and styling of elements with flexbox. 
