@@ -18,14 +18,12 @@ body {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
 }
-
 
 .links {
     display: flex;
     gap: 12px;
-    font-size: 18px;
-    color: #E5E7EB;
 }
 
 ul {
@@ -34,7 +32,49 @@ ul {
     padding: 0;
   }
   
-  a {
+a {
     color: inherit;
     text-decoration: none;
-  }
+}
+
+.pic {
+    background-color:aliceblue;
+    padding: 100px 150px;
+    text-align: center;
+    
+}
+
+.landing {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 100px 0px;
+    gap: 200px;
+}
+
+.links, .description {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 25px;
+    color: #E5E7EB;
+    font-weight: bold;
+}
+.btn1 {
+    margin-top: 10px;
+}
+
+.landing-description {
+    width: 450px;
+}
