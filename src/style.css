@@ -78,3 +78,37 @@ button {
 .landing-description {
     width: 450px;
 }
+
+.information { 
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+.info {
+    font-weight: bold;
+    font-size: 36px;
+}
+.box {
+    border: solid;
+    border-color: #3882F6;
+    padding: 70px;
+    border-radius: 10px;
+
+}
+
+.boxes {
+    display: flex;
+    gap: 40px;
+
+}
+
+.item {
+    flex-flow: column;
+    display: flex;
+    width: 150px;
+    gap: 10px;
+    text-align: center;
+}
