@@ -40,9 +40,6 @@ export const loadPage = (() => {
         element.innerHTML += text;
     };
 
-    const mul = (a, b) => a * b;
-    const div = (a, b) => a / b;
-
     return {
       create_element, 
       create_img, 
